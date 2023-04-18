@@ -33,6 +33,8 @@ public class TheatreScreen {
 	public static void main(String[] args) {
 
 		TheatreScreen ts = new TheatreScreen(1, "Sudama", new Movies("Pathan", 9.4));
+//		TheatreScreen ts1 = new TheatreScreen(1, "Alankar", new Movies("RRR", 8.2));
+//		TheatreScreen ts2 = new TheatreScreen(1, "PVR", new Movies("KGF", 8.7));
 		System.out.println(ts);
 
 	}
