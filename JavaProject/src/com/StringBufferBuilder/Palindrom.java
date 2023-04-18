@@ -11,11 +11,11 @@ public class Palindrom {
 		StringBuffer sb = new StringBuffer(s);
 		sb.reverse();
 
-		//System.out.println(sb);
+		System.out.println(sb);
 
 		s = sb.toString();
 
-		//System.out.println(s);
+		System.out.println(s);
 
 		if (s.equals(str)) {
 			System.out.println(s + " Is a palindrom...!");
