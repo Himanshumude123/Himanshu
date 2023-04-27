@@ -13,7 +13,7 @@ public class EmailValidationOFString {
 			
 			char ch = str.charAt(i);
 			
-			if((ch>='a' && ch<= 'z' )|| (ch>='A' && ch<='z') && (ch>='0' && ch<='9') &&  )
+			//if((ch>='a' && ch<= 'z' )|| (ch>='A' && ch<='z') && (ch>='0' && ch<='9') &&  )
 			
 		}
 	}
