@@ -44,18 +44,21 @@ class TQEmployee {
 
 		while (itr.hasNext()) {
 			TQEmployee n = itr.next();
-			
+
+			int k = 0;
 			Iterator<TQEmployee> itr1 = emp.iterator();
-			while(itr1.hasNext()) {
-			TQEmployee n1 = itr.next();
 
-			if (n.l.l_name.equals(n1.l.l_name)) {
+			while (itr1.hasNext()) {
 
-				if (itr1.hasNext()) {
-					System.out.println(n1);
-					itr1.next();
+				TQEmployee n1 = itr1.next();
+
+				if (n.l.l_name.equals(n1.l.l_name)) {
+
+					k++;
 				}
 			}
+			if (k > 1) {
+				System.out.println(n);
 			}
 
 		}
@@ -73,10 +76,10 @@ public class EmployeeMain {
 		emp.add(new TQEmployee(103, "Sahil", new Location(445404, "Pune")));
 		emp.add(new TQEmployee(104, "Ram", new Location(442114, "Nashik")));
 		emp.add(new TQEmployee(105, "mike", new Location(442714, "Banglore")));
-		
+
 //		System.out.println(emp);
-		
-		for(TQEmployee e : emp) {
+
+		for (TQEmployee e : emp) {
 			System.out.println(e);
 		}
 
