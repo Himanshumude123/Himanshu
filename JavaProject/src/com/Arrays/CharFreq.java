@@ -25,5 +25,6 @@ public class CharFreq {
 		}
 
 		System.out.println(ch + " " + count);
+		sc.close();
 	}
 }

@@ -10,7 +10,7 @@ public class CharArray {
 			c[i] = (char) (c[i] + 2);
 		}
 		System.out.println(Arrays.toString(c));
-	}
+	} 
 
 	public static void main(String[] args) {
 

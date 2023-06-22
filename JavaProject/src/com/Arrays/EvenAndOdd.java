@@ -18,6 +18,7 @@ public class EvenAndOdd {
 		}
 
 		System.out.println("\n Odd Number :");
+		
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] % 2 != 0) {
 				System.out.print(arr[i] + " ");
@@ -29,6 +30,6 @@ public class EvenAndOdd {
 	public static void main(String[] args) {
 
 		int arr[] = { 12, 7, 32, 42, 52, 62, 17, 15, 35, 63 };
-		EvenAndOdd.evenAndOddFind(arr);
+		evenAndOddFind(arr);
 	}
 }
